@@ -5,12 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <title>Meu perfil</title>
 </head>
 
 <body>
 
-    <ul>
+    <ul class="menu">
         <li>
             <a href="index.html">Home</a>
         </li>
@@ -19,28 +20,63 @@
         </li>
     </ul>
 
-    <h1>Sobre o Vitor</h1>
-    <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae nostrum, facilis maiores numquam fuga eligendi
-        cupiditate cum itaque, perspiciatis id mollitia. Harum aspernatur praesentium, nisi rem velit animi neque quis?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, provident dignissimos repellat quas porro
-        natus deleniti, exercitationem inventore dolores, ea culpa odio fugit ratione recusandae voluptas laborum
-        doloremque amet magnam.
-    </p>
+    <h1 class="center">Sobre o Vitor</h1>
 
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime harum dolores, voluptatem ipsam voluptates ex
-        dolor nulla nisi praesentium consequatur culpa optio mollitia ipsum tenetur laborum impedit deleniti, modi
-        voluptatibus.
-    </p>
+    <div class="container">
 
-    <img src="https://github.com/vitor-pm.png" alt="foto do criador deste conteúdo">
+        <div>
+            <img class="wh-300 p-30 foto" src="https://github.com/vitor-pm.png" alt="foto do criador deste conteúdo">
+        </div>
 
-    <h2>Meu video preferido:</h2>
+        <div class="p-30">
+            <p class="justify">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae nostrum, facilis maiores numquam fuga
+                eligendi
+                cupiditate cum itaque, perspiciatis id mollitia. Harum aspernatur praesentium, nisi rem velit animi
+                neque
+                quis?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, provident dignissimos repellat quas
+                porro
+                natus deleniti, exercitationem inventore dolores, ea culpa odio fugit ratione recusandae voluptas
+                laborum
+                doloremque amet magnam.
+            </p>
 
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/OJVNzQyx-Yk" title="YouTube video player"
-        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen></iframe>
+            <p class="justify">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime harum dolores, voluptatem ipsam
+                voluptates
+                ex
+                dolor nulla nisi praesentium consequatur culpa optio mollitia ipsum tenetur laborum impedit deleniti,
+                modi
+                voluptatibus.
+            </p>
+        </div>
+    </div>
+
+    <h2 class="center">Meu video preferido:</h2>
+
+    <div class="container mb-50">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/OJVNzQyx-Yk" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+    </div>
+
+    <hr>
+    <footer>
+        <div class="container">
+            <a href="https://www.instagram.com" target="blank"><img class="tm-social"
+                    src="./assets/images/instagram.png" alt="Logo do instagram"></a>
+            <a href="https://www.linkedin.com" target="blank"><img class="tm-social" src="./assets/images/linkedin.png"
+                    alt="Logo do linkedin"></a>
+            <a href="https://www.twitter.com" target="blank"><img class="tm-social" src="./assets/images/twitter.png"
+                    alt="Logo do twitter"></a>
+
+        </div>
+        <p class="center">Todos os direitos reservados para Vitor Pinheiro &copy</p>
+
+    </footer>
+
 </body>
 
 </html>
